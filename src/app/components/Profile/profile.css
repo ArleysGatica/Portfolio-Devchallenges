@@ -4,10 +4,10 @@
 }
 
 .profile-container img {
-  width: 220px;
-  height: 220px;
+  width: 250px;
+  height: 235px;
   border-radius: 12%;
-  padding: 10px;
+  padding: 5px;
 }
 
 .profile-info {
@@ -24,7 +24,7 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
-  margin-top: -12%;
+  margin-top: -10%;
   color: #4f4f4f;
 }
 
@@ -33,17 +33,17 @@
   font-size: 18px;
   line-height: 22px;
   color: #828282;
-  margin-top: -35%;
+  margin-top: -30%;
 }
 
 .container-description {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  width: 50%;
-  background: yellowgreen;
+  justify-content: start;
+  width: 60%;
   height: 120px;
-  align-self: self-end;
+  margin-left: -5%;
+  margin-top: -7px;
 }
 
 .container-description p {
@@ -52,4 +52,51 @@
   font-size: 18px;
   line-height: 22px;
   color: #828282;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: 100px;
+}
+
+.profile-email {
+  display: flex;
+  width: 265px;
+  height: 100px;
+}
+
+.profile-email img {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+}
+
+.profile-email p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.profile-phone {
+  display: flex;
+  width: 200px;
+  height: 100px;
+}
+
+.profile-phone img {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+}
+
+.profile-phone p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
 }

@@ -1,5 +1,7 @@
 import React from "react";
 import "./profile.css";
+import llamada from "./../../../images/llamada.png";
+import email from "./../../../images/email.png";
 
 export const Profile = props => {
   const { img, name, occupation, mail, phone, description } = props;
@@ -19,10 +21,13 @@ export const Profile = props => {
           {description &&
             description.map((item, index) => <p key={index}>{item}</p>)}
         </div>
-        <div className="profile-contact">
-          <div className="profile-contact-item">
-            <i className="fas fa-envelope"></i>
+        <div className="container-contact">
+          <div className="profile-email">
+            <img src={email} alt="mail" />
             <p>{mail}</p>
+          </div>
+          <div className="profile-phone">
+            <img src={llamada} alt="phone" />
             <p>{phone}</p>
           </div>
         </div>
