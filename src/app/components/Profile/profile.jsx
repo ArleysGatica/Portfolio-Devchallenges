@@ -4,7 +4,7 @@ import llamada from "./../../../images/llamada.png";
 import email from "./../../../images/email.png";
 
 export const Profile = props => {
-  const { img, name, occupation, mail, phone, description } = props;
+  const { img, name, occupation, city, mail, phone, description } = props;
 
   console.log(name);
   return (
@@ -16,6 +16,7 @@ export const Profile = props => {
         <div className="profile-info">
           <h1>{name}</h1>
           <h2>{occupation}</h2>
+          <h3>{city}</h3>
         </div>
         <div className="container-description">
           {description &&

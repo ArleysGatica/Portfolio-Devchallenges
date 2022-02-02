@@ -22,18 +22,25 @@
 
 .profile-info h1 {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 25px;
   line-height: 29px;
-  margin-top: -10%;
   color: #4f4f4f;
+  margin-top: 13%;
 }
 
 .profile-info h2 {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 22px;
   color: #828282;
-  margin-top: -30%;
+  margin-top: -5%;
+}
+
+.profile-info h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #5f5d5d;
 }
 
 .container-description {

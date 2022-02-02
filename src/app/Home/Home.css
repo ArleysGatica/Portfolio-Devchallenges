@@ -10,3 +10,26 @@
   padding: 20px;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 30%);
 }
+
+.Home-front-end-container {
+  display: flex;
+  width: 25%;
+  height: 40%;
+  border-radius: 12px;
+  background: rgb(155, 111, 111);
+  margin-top: 1%;
+  margin-left: 10%;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 30%);
+  text-align-last: center;
+}
+
+.Home-blog-container {
+  display: flex;
+  width: 50%;
+  height: 40%;
+  border-radius: 12px;
+  background: rgb(158, 25, 25);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 30%);
+  margin-top: -21%;
+  margin-left: 39%;
+}
