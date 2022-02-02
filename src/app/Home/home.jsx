@@ -4,6 +4,8 @@ import { Profile } from "../components/Profile/profile";
 import Foto from "./../../images/NichoDev.jpg";
 import { FrontEnd } from "../components/Front-End/front-end";
 import { Blog } from "../components/Blog/blog";
+import { Hobbies } from "../components/Hobbies/hobbies";
+import { Experiences } from "../components/Experiences/experiences";
 
 const App = () => {
   return (
@@ -38,6 +40,17 @@ const App = () => {
           ]}
           footer="Dev.to"
           header="blog"
+        />
+      </div>
+      <div className="Home-hobbies-container">
+        <Hobbies
+          title="Hobbies"
+          category="Clash Royales"
+          description="Juego de entretenimiento para pasar el rato y jugar en las madrugadas !!"
+          category2="Programacion"
+          description2="Mas que un Hobbies es una enseñansa e aprendisaje dia a dia con nuevas cosas que se descubren en el camino !!"
+          category3="Futbol"
+          description3="Cuando se puede nada mas.. !!"
         />
       </div>
     </>

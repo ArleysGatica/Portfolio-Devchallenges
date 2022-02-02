@@ -1,6 +1,6 @@
 import React from "react";
 import "./blog.css";
-import re from "./../../../images/re.png";
+import re from "./../../../images/re.jpg";
 
 export const Blog = props => {
   const { title, description, footer, header } = props;
