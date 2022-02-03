@@ -7,6 +7,7 @@ import { Blog } from "../components/Blog/blog";
 import { Hobbies } from "../components/Hobbies/hobbies";
 import { Experiences } from "../components/Experiences/experiences";
 import { Project } from "../components/Project/project";
+import { Bar } from "../components/Bar/bar";
 
 const App = () => {
   return (
@@ -64,6 +65,9 @@ const App = () => {
           years2="Octubre 2021"
           description2="lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. "
         />
+      </div>
+      <div className="Home-bar-container">
+        <Bar title="Proyectos (3)" />
       </div>
       <div className="Home-project-container">
         <Project

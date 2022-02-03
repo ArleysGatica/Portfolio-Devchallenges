@@ -1,0 +1,95 @@
+.bar-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  margin-left: 7%;
+  padding: 10px;
+  color: #4f4f4f;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button1 {
+  padding: 10px;
+}
+
+.button1 input {
+  border: none;
+  font-family: "Montserrat";
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  width: 110px;
+  height: 35px;
+  margin-left: 15px;
+  color: #111111;
+  margin-top: -10px;
+  background: #ffffff;
+  border: 1px solid #02070a;
+}
+
+.button1 input:hover {
+  color: rgb(255, 255, 255);
+}
+
+.button1:hover input {
+  background: #2f80ed;
+}
+
+.button2 {
+  padding: 10px;
+}
+
+.button2 input {
+  border: none;
+  font-family: "Montserrat";
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  width: 110px;
+  height: 35px;
+  margin-left: 15px;
+  color: #111111;
+  margin-top: -10px;
+  background: #ffffff;
+  border: 1px solid #02070a;
+}
+
+.button2 input:hover {
+  color: rgb(255, 255, 255);
+}
+
+.button2:hover input {
+  background: #2f80ed;
+}
+
+.button3 {
+  padding: 10px;
+}
+
+.button3 input {
+  border: none;
+  font-family: "Montserrat";
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  width: 110px;
+  height: 35px;
+  margin-left: 15px;
+  color: #111111;
+  margin-top: -10px;
+  background: #ffffff;
+  border: 1px solid #02070a;
+}
+
+.button3 input:hover {
+  color: rgb(255, 255, 255);
+}
+
+.button3:hover input {
+  background: #2f80ed;
+}
