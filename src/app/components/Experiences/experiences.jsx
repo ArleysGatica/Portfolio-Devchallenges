@@ -1,6 +1,6 @@
 import React from "react";
 import "./experiences.css";
-import rally2 from "../../../images/rally.jpg";
+import rally2 from "../../../images/rally2.jpg";
 import hack from "../../../images/hack.jpeg";
 
 export const Experiences = props => {

@@ -67,9 +67,15 @@ const App = () => {
       </div>
       <div className="Home-project-container">
         <Project
-          lenguaje="React"
-          name="NichoDev"
+          lenguaje="#HTML5  #CSS3 #Responsive"
+          name="Page-team"
           info="Aplicacion web para la gestion de los nichos de la empresa"
+          lenguaje2="#HTML5  #CSS3 "
+          name2="Store"
+          info2="Aplicacion web para la gestion de los nichos de la empresa"
+          lenguaje3="#HTML5  #CSS3"
+          name3="Page-Edie"
+          info3="Aplicacion web para la gestion de los nichos de la empresa"
         />
       </div>
     </>

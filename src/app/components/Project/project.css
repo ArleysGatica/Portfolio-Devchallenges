@@ -1,4 +1,239 @@
+.Project-container {
+  display: flex;
+  width: 100%;
+  height: 40%;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
 .Project-img-container img {
-  width: 20%;
-  height: 20%;
+  width: 290px;
+  height: 180px;
+  padding: 12px;
+  border-radius: 25px;
+}
+
+.Project-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+
+.Project-info-lenguaje {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+
+.Project-info-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: -7%;
+  color: #333333;
+}
+
+.Project-info-description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  margin-top: -7%;
+}
+
+.card-1 {
+  padding: 10px;
+}
+
+.card-1 input {
+  border: none;
+  font-family: "Montserrat";
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  width: 110px;
+  height: 35px;
+  margin-left: 15px;
+  color: #111111;
+  margin-top: -10px;
+  background: #ffffff;
+  border: 2px solid #2d9cdb;
+}
+
+.card-1 input:hover {
+  color: rgb(255, 255, 255);
+}
+
+.card-1:hover input {
+  background: #2f80ed;
+}
+
+.Project-container-2 {
+  display: flex;
+  width: 100%;
+  height: 40%;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 30%);
+  margin-left: 32%;
+  border-radius: 12px;
+}
+
+.Project-img-container-2 img {
+  width: 290px;
+  height: 180px;
+  padding: 12px;
+  border-radius: 25px;
+}
+
+.Project-info-container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+
+.Project-info-lenguaje-2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+
+.Project-info-name-2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: -7%;
+  color: #333333;
+}
+
+.Project-info-description-2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  margin-top: -7%;
+}
+
+.card-2 {
+  padding: 10px;
+}
+
+.card-2 input {
+  border: none;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  width: 110px;
+  height: 35px;
+  margin-left: 15px;
+  color: #111111;
+  margin-top: -10px;
+  background: #ffffff;
+  border: 2px solid #2d9cdb;
+}
+
+.card-2 input:hover {
+  color: rgb(255, 255, 255);
+}
+
+.card-2:hover input {
+  background: #2f80ed;
+}
+
+.Project-container-3 {
+  display: flex;
+  width: 100%;
+  height: 40%;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 30%);
+  margin-left: 25%;
+  border-radius: 12px;
+}
+
+.Project-img-container-3 img {
+  width: 290px;
+  height: 180px;
+  padding: 12px;
+  border-radius: 25px;
+}
+
+.Project-info-container-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+
+.Project-info-lenguaje-3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+
+.Project-info-name-3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: -7%;
+  color: #333333;
+}
+
+.Project-info-description-3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  margin-top: -7%;
+}
+.card-3 {
+  padding: 10px;
+}
+
+.card-3 input {
+  border: none;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  width: 110px;
+  height: 35px;
+  margin-left: 15px;
+  color: #111111;
+  margin-top: -10px;
+  background: #ffffff;
+  border: 2px solid #2d9cdb;
+}
+
+.card-3 input:hover {
+  color: rgb(255, 255, 255);
+}
+
+.card-3:hover input {
+  background: #2f80ed;
 }
