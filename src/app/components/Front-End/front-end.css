@@ -1,0 +1,16 @@
+.front-end-container {
+  margin-top: 5%;
+  width: 100%;
+}
+
+.rayas {
+  border-bottom: 10px solid rgb(192, 68, 68);
+  width: 100%;
+  border-radius: 10px;
+}
+
+.rayas2 {
+  border-bottom: 10px solid rgb(47, 63, 134);
+  width: 100%;
+  border-radius: 10px;
+}

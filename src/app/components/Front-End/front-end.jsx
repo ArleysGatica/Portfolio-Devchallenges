@@ -3,6 +3,7 @@ import "./front-end.css";
 
 export const FrontEnd = props => {
   const { title, tecnologia } = props;
+
   return (
     <>
       <div className="front-end-container">
@@ -13,6 +14,8 @@ export const FrontEnd = props => {
           {tecnologia &&
             tecnologia.map((item, index) => <p key={index}>{item}</p>)}
         </div>
+        <div className="rayas"></div>
+        <div className="rayas2"></div>
       </div>
     </>
   );

@@ -53,6 +53,17 @@ const App = () => {
           description3="Cuando se puede nada mas.. !!"
         />
       </div>
+      <div className="Home-experiences-container">
+        <Experiences
+          title="Experiencia"
+          occupation="Tutor system engineer"
+          years="Noviembre 2020"
+          description="lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. "
+          occupation2="Front-End Developer"
+          years2="Octubre 2021"
+          description2="lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. "
+        />
+      </div>
     </>
   );
 };
