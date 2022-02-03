@@ -6,7 +6,6 @@ import email from "./../../../images/email.png";
 export const Profile = props => {
   const { img, name, occupation, city, mail, phone, description } = props;
 
-  console.log(name);
   return (
     <>
       <div className="profile-container">

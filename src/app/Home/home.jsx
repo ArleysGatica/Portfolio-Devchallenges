@@ -6,6 +6,7 @@ import { FrontEnd } from "../components/Front-End/front-end";
 import { Blog } from "../components/Blog/blog";
 import { Hobbies } from "../components/Hobbies/hobbies";
 import { Experiences } from "../components/Experiences/experiences";
+import { Project } from "../components/Project/project";
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
           name="Arleys Gatica"
           occupation="Front-end Developer"
           city="Juigalpa,Chontales"
-          mail="Gaticaarleys16@gmail.com"
+          mail="Gatica.arleys16@gmail.com"
           phone="+ (505) 86349918"
           description={[
             "Soy programador de nivel Junior. ",
@@ -62,6 +63,13 @@ const App = () => {
           occupation2="Front-End Developer"
           years2="Octubre 2021"
           description2="lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. "
+        />
+      </div>
+      <div className="Home-project-container">
+        <Project
+          lenguaje="React"
+          name="NichoDev"
+          info="Aplicacion web para la gestion de los nichos de la empresa"
         />
       </div>
     </>
