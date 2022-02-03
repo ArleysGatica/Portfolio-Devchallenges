@@ -3,14 +3,147 @@
   width: 100%;
 }
 
+.front-end-info {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.container-tecnologia {
+  margin-left: 7px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+
+.Html {
+  width: 65%;
+  display: inline;
+  float: right;
+  margin-top: -56%;
+  margin-right: 5%;
+}
+
 .rayas {
-  border-bottom: 10px solid rgb(192, 68, 68);
+  border-bottom: 10px solid #c4c4c4;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 .rayas2 {
-  border-bottom: 10px solid rgb(47, 63, 134);
+  border-bottom: 10px solid #2f80ed;
+  width: 75%;
+  border-radius: 12px;
+  margin-top: -10px;
+}
+
+.css {
+  width: 65%;
+  display: inline;
+  float: right;
+  margin-top: -47%;
+  margin-right: 5%;
+}
+
+.rayas-css {
+  border-bottom: 10px solid #c4c4c4;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 12px;
+}
+
+.rayas2-css {
+  border-bottom: 10px solid #2f80ed;
+  width: 85%;
+  border-radius: 12px;
+  margin-top: -10px;
+}
+
+.js {
+  width: 65%;
+  display: inline;
+  float: right;
+  margin-top: -37%;
+  margin-right: 5%;
+}
+
+.rayas-js {
+  border-bottom: 10px solid #c4c4c4;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.rayas2-js {
+  border-bottom: 10px solid #2f80ed;
+  width: 70%;
+  border-radius: 12px;
+  margin-top: -10px;
+}
+
+.react {
+  width: 65%;
+  display: inline;
+  float: right;
+  margin-top: -27%;
+  margin-right: 5%;
+}
+
+.rayas-react {
+  border-bottom: 10px solid #c4c4c4;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.rayas2-react {
+  border-bottom: 10px solid #2f80ed;
+  width: 77%;
+  border-radius: 12px;
+  margin-top: -10px;
+}
+
+.node {
+  width: 65%;
+  display: inline;
+  float: right;
+  margin-top: -17.7%;
+  margin-right: 5%;
+}
+
+.rayas-node {
+  border-bottom: 10px solid #c4c4c4;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.rayas2-node {
+  border-bottom: 10px solid #2f80ed;
+  width: 60%;
+  border-radius: 12px;
+  margin-top: -10px;
+}
+
+.git {
+  width: 65%;
+  display: inline;
+  float: right;
+  margin-top: -8%;
+  margin-right: 5%;
+}
+
+.rayas-git {
+  border-bottom: 10px solid #c4c4c4;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.rayas2-git {
+  border-bottom: 10px solid #2f80ed;
+  width: 80%;
+  border-radius: 12px;
+  margin-top: -10px;
 }
